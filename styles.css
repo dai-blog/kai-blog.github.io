@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+  width: 100%;
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background: white;
+  position: fixed;
+  
+}
+
+.header-logo img {
+  width: 240px;
+}
+
+.header-list ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header-list li {
+  list-style: none;
+  color: white;
+  font-size: 12px;
+}
+
+.header-list {
+  text-align: center;
+  background: black;
+  padding: 12px 0;
+}
+
+/* pickup */
+
+.pickup {
+  padding-top: 176px;
+}
+
+
+.pickup-content p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.pickup-content a {
+  text-decoration: none;
+  color: silver;
+  text-align: center;
+  display: block;
+  border-bottom:  1px solid silver;
+  width: 104px;
+  margin: 0 auto;
+}
+
+.pickup-content a:hover {
+  opacity: 0.8;
+}
+
+.pickup-content {
+  margin-bottom: 32px;
+}
+
+/* top */
+
+
+.top h2 {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 0;
+}
+
+.top-content p {
+  padding: 10px 0;
+}
+
+.top-content a {
+  text-decoration: none;
+  color: silver;
+  text-align: center;
+  display: block;
+  border-bottom:  1px solid silver;
+  width: 104px;
+  margin: 0 auto;
+}
+
+
+.top-content {
+  margin-bottom: 24px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+
+.profile h1 {
+  text-align: center;
+}
+
+.profile p {
+  text-align: left;
+  width: 88%;
+  margin: 0 auto;
+  padding: 32px 0;
+  font-size: 12px;
+}
+
+
+.ranking h1 {
+  text-align: center;
+}
+
+
+.ranking p {
+  font-size: 14px;
+  padding-bottom: 24px;
+}
+
+/*  */
+
+.archive h1 {
+  text-align: center;
+}
+
+.archive p {
+  border-bottom: 1px solid black;
+  padding: 20px;
+  width: 90%;
+}
+
+.archive {
+  margin-bottom: 64px;
+}
+
+footer {
+  background: #EEEEEE;
+}
+
+.about  {
+  text-align: left;
+  
+}
+
+footer h1 {
+  font-size: 18px;
+  padding: 16px 0;
+}
+
+.about p {
+  font-size: 12px;
+}
+
+.btn {
+    color: white;
+    background: skyblue;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.about a {
+  text-decoration: none;
+}
+
+.about-btn {
+  text-align: center;
+  padding: 16px 0;
+}
+
+footer li {
+  border-bottom: 1px solid black;
+  padding: 16px;
+  width: 90%;
+}
+
+.last {
+  text-align: center;
+}
+
+
+
+/* pc */
+@media (min-width: 670px) {
+  .header-logo img {
+    margin-left: 56px;
+  }
+
+  .header-list ul {
+    width: 50%;
+  }
+
+  .pickup-content  {
+    width: 30%;
+  }
+
+  .pickup-contents {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .two {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+  }
+
+  .top {
+    width: 55%;
+    padding-top: 80px;
+  }
+
+  aside {
+    width: 35%;
+  }
+
+  .top a {
+    margin: 32px auto;
+  }
+
+  .foot {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .last p {
+    padding-top: 40px;
+    font-size: 12px;
+  }
+
+  .about {
+    width: 30%;
+  }
+  .menu {
+    width: 30%;
+  }
+  .twitter {
+    width: 30%;
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;    
+  }
+
+  .pickup-content a{
+    margin: 16px auto 0;
+  }
+}
